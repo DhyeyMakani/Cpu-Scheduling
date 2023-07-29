@@ -1,0 +1,11 @@
+3).Round Robin Scheduling
+--------------------------
+P1 P2 P1 P2 P3 P1 P4 P2 P3 P4 P2 P3 P5 P4 P3 P5 P4 P4 
+Priority	Arraival Time	Burst Time	Finish Time	Turn Around	Waiting time
+   1		   1		   3		   8		   7		   4
+   1		   2		   4		   13		   11		   7
+   1		   4		   4		   17		   13		   9
+   2		   5		   5		   20		   15		   10
+   1		   11		   2		   18		   7		   5
+Average Turn Around Time is: 10.60
+Average Waiting Time is: 7.00
